@@ -1,1 +1,1 @@
-# DSD_Spring_2020
+# Digital System Design - Teaching Labs
