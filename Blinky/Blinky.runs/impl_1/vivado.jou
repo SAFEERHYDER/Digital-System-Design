@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Mon Sep 28 18:15:38 2020
+# Process ID: 2720
+# Current directory: D:/DSDLabs/Blinky/Blinky.runs/impl_1
+# Command line: vivado.exe -log Blinky_1Hz.vdi -applog -messageDb vivado.pb -mode batch -source Blinky_1Hz.tcl -notrace
+# Log file: D:/DSDLabs/Blinky/Blinky.runs/impl_1/Blinky_1Hz.vdi
+# Journal file: D:/DSDLabs/Blinky/Blinky.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source Blinky_1Hz.tcl -notrace
