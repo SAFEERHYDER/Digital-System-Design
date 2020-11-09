@@ -35,39 +35,39 @@ end
 endmodule
 
 
-module TB;
-reg clk, d, reset, En;
-wire q;
+//module TB;
+//reg clk, d, reset, En;
+//wire q;
 
-DFF_AsynReset_Synch_En DFF0(q, d, clk, reset, En);
+//DFF_AsynReset_Synch_En DFF0(q, d, clk, reset, En);
 
-initial
-clk = 0;
-always
-#10 clk = ~ clk;
+//initial
+//clk = 0;
+//always
+//#10 clk = ~ clk;
 
-initial
-begin
-//// Enable deasserted
-    @(negedge clk);
-    d = 1; En = 1;
-    @(negedge clk) ;
-    d = 0; En = 1;
-//// Enable Asserted    
-    @(negedge clk);
-    d = 1; En = 0;
-    @(negedge clk) ;
-    d = 0; En = 0;
+//initial
+//begin
+////// Enable deasserted
+//    @(negedge clk);
+//    d = 1; En = 1;
+//    @(negedge clk) ;
+//    d = 0; En = 1;
+////// Enable Asserted    
+//    @(negedge clk);
+//    d = 1; En = 0;
+//    @(negedge clk) ;
+//    d = 0; En = 0;
     
-//// Reset Asserted    
-    @(negedge clk);
-    reset = 1;
+////// Reset Asserted    
+//    @(negedge clk);
+//    reset = 1;
     
-    repeat(3) @(negedge clk);
-    $finish;
+//    repeat(3) @(negedge clk);
+//    $finish;
     
-end 
+//end 
 
-endmodule 
+//endmodule 
 
 
