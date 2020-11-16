@@ -20,7 +20,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module Four_bit_shift_register(Clk, reset, S_In, S_Out);
+module Para_shift_register(Clk, reset, S_In, S_Out);
 
 parameter N = 16;
 
