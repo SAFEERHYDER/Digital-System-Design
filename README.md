@@ -3,7 +3,7 @@
 
 
 ###  Department of Electrical Engineering, Sukkur IBA University
-#### Instructor: Safeer Hyder, PhD, University of Leeds, England
+#### *Instructor: Safeer Hyder, PhD, University of Leeds, England*
 
 ##### Course description:
 The course covers digital design topics such as digital logic, sequential building blocks, finite-state
