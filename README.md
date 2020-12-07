@@ -1,4 +1,5 @@
-# Digital System Design - Teaching Labs - Fall 2020  
+# Digital System Design - Teaching Labs - Fall 2020  ![alt text](/1546489864.png)
+
 
 
 ###  Department of Electrical Engineering, Sukkur IBA University
