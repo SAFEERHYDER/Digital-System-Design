@@ -1,4 +1,7 @@
-# Digital System Design - Teaching Labs
+# Digital System Design - Teaching Labs - Fall 2020 
+# Department of Electrical Engineering, Sukkur IBA University
+# Instructor: Safeer Hyder, PhD, University of Leeds, England
+
 
 1. Verilog HDL Gate-Level Modelling
 2. Hierarchical Modelling Approach
