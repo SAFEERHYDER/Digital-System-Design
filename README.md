@@ -1,3 +1,6 @@
 # Digital System Design - Teaching Labs
 Important Links:
-https://verilogguide.readthedocs.io/en/latest/verilog/fsm.html
+
+
+A [link](https://verilogguide.readthedocs.io/en/latest/verilog/fsm.html "Finite State Machines").
+
