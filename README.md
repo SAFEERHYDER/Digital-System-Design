@@ -3,7 +3,7 @@
 ###  Department of Electrical Engineering, Sukkur IBA University
 #### Instructor: Safeer Hyder, PhD, University of Leeds, England
 
-
+##### Labs' titles:
 1. Verilog HDL Gate-Level Modelling
 2. Hierarchical Modelling Approach
 3. Introduction to Data Flow Modelling
