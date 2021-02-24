@@ -1,4 +1,4 @@
-# Digital System Design - Teaching Labs - Fall 2020  ![alt text](/1546489864.png)
+# Digital System Design - Teaching Labs - Spring 2021  ![alt text](/1546489864.png)
 
 
 
