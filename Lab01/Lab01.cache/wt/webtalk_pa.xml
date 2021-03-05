@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<document>
+<!--The data in this file is primarily intended for consumption by Xilinx tools.
+The structure and the elements are likely to change over the next few releases.
+This means code written to parse this file will need to be revisited each subsequent release.-->
+<application name="pa" timeStamp="Thu Mar 04 18:13:31 2021">
+<section name="Project Information" visible="false">
+<property name="ProjectID" value="0da004e50b844a84b7ad877682dac4e1" type="ProjectID"/>
+<property name="ProjectIteration" value="1" type="ProjectIteration"/>
+</section>
+<section name="PlanAhead Usage" visible="true">
+<item name="Project Data">
+<property name="SrcSetCount" value="1" type="SrcSetCount"/>
+<property name="ConstraintSetCount" value="1" type="ConstraintSetCount"/>
+<property name="DesignMode" value="RTL" type="DesignMode"/>
+<property name="SynthesisStrategy" value="Vivado Synthesis Defaults" type="SynthesisStrategy"/>
+<property name="ImplStrategy" value="Vivado Implementation Defaults" type="ImplStrategy"/>
+</item>
+<item name="Java Command Handlers">
+<property name="AddSources" value="6" type="JavaHandler"/>
+<property name="NewProject" value="2" type="JavaHandler"/>
+<property name="SetSourceEnabled" value="8" type="JavaHandler"/>
+</item>
+<item name="Gui Resources Info">
+<property name="Carry_LookAhead_Adder.v, 407, 176" value="2" type="GuiResourceData"/>
+<property name="Carry_LookAhead_Adder.v, 407, 176, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="FINISH, Finish" value="7" type="GuiResourceData"/>
+<property name="Multiplexer_4_to_1.v, 94, 430" value="1" type="GuiResourceData"/>
+<property name="NEXT, Next " value="14" type="GuiResourceData"/>
+<property name="PAResourceAtoD.AddSrcWizard_SPECIFY_HDL_AND_NETLIST_FILES_OR_DIRECTORIES, Add or create design sources" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.AddSrcWizard_SPECIFY_OR_CREATE_CONSTRAINT_FILES, Add or create constraints" value="2" type="GuiResourceData"/>
+<property name="PAResourceAtoD.AddSrcWizard_SPECIFY_SIMULATION_SPECIFIC_HDL_FILES, Add or create simulation sources" value="2" type="GuiResourceData"/>
+<property name="PAResourceAtoD.ConstraintsChooserPanel_ADD_FILES, Add Files" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.ConstraintsChooserPanel_CREATE_FILE, Create File" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CreateConstraintsFilePanel_FILE_NAME, Multiplexer_4_to_1" value="1" type="GuiResourceData"/>
+<property name="PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, Multiplexer_4_to_1" value="2" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_NEW_PROJECT, New Project..." value="1" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_SRC_DISABLE, Disable File" value="6" type="GuiResourceData"/>
+<property name="PAResourceCommand.PACommandNames_SRC_ENABLE, Enable File" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Constraints, constrs_1, Full_Adder.xdc], 9, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Constraints, constrs_1, Full_Adder.xdc], 9, false, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Constraints, constrs_1, Inverter.xdc], 7, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Constraints, constrs_1, Inverter.xdc], 7, false, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Constraints, constrs_1, Multiplexer_4_to_1.xdc], 10, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Constraints, constrs_1, Multiplexer_4_to_1.xdc], 10, false, false, false, false, false, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Constraints, constrs_1], 5" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Constraints], 4" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Constraints], 6, true, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Carry_LookAhead_Adder (Carry_LookAhead_Adder.v" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Disabled Sources, Half_Adder.v], 5, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Disabled Sources, Half_Adder.v], 5, false, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Disabled Sources, Parallel_Adder.v], 6, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Disabled Sources, Parallel_Adder.v], 6, false, false, false, false, true, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Disabled Sources], 1" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Full_Adder (Full_Adder.v" value="3" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Half_Adder (Half_Adder.v" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Inverter (Inverter.v" value="3" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Multiplexer_4_to_1 (Multiplexer_4_to_1.v" value="4" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Parallel_Adder (Parallel_Adder.v" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, Carry_LookAhead_Adder (Carry_LookAhead_Adder.v" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, Disabled Sources, Half_Adder.v], -1, false" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, Full_Adder_TB (Full_Adder_TB.v" value="3" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, Parallel_Adder_TB (Parallel_Adder_TB.v" value="5" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1], 6" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, [, Project Manager, Add Sources], 2, false" value="7" type="GuiResourceData"/>
+<property name="PAResourceEtoH.GettingStartedView_CREATE_NEW_PROJECT, Create New Project" value="1" type="GuiResourceData"/>
+<property name="PAResourceItoN.MainMenuMgr_FILE, File" value="2" type="GuiResourceData"/>
+<property name="PAResourceItoN.NewProjectWizard_DO_NOT_SPECIFY_SOURCES_AT_THIS_TIME, Do not specify sources at this time, true" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PAViews_CODE, Code" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PartChooser_BOARDS, Boards" value="2" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PartChooser_BOARDS, Virtex-7 VC709 Evaluation Platform ; xilinx.com ; 1.0 ; xc7vx690tffg1761-2 ; 1761 ; 1.8 ; 1470 ; 3600 ; 866400 ; 0 ; 36 ; 850 ; 433200 ; 20 ; 3 ; 85 ; 0 ; 85 ; C ; 1.03 ; 0.97 ; 0.97 ; 0 ; 0 ; 0 ; 36 ; 0, 5, Virtex-7 VC709 Evaluation Platform, 0" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.PartChooser_BOARDS, ZedBoard Zynq Evaluation and Development Kit ; em.avnet.com ; d ; xc7z020clg484-1 ; 484 ; 1.3 ; 140 ; 220 ; 106400 ; 0 ; 0 ; 200 ; 53200 ; 4 ; 0 ; 85 ; 0 ; 85 ; C ; 1.05 ; 0.95 ; 0.95 ; 0 ; 0 ; 0 ; 0 ; 0, 0, ZedBoard Zynq Evaluation and Development Kit, 0" value="2" type="GuiResourceData"/>
+<property name="PAResourceOtoP.ProjectNameChooser_CHOOSE_PROJECT_LOCATION, (String" value="2" type="GuiResourceData"/>
+<property name="PAResourceOtoP.ProjectNameChooser_PROJECT_NAME, Lab01" value="1" type="GuiResourceData"/>
+<property name="PAResourceOtoP.ProjectNameChooser_PROJECT_NAME, Lab02" value="1" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SrcChooserPanel_ADD_HDL_AND_NETLIST_FILES_TO_YOUR_PROJECT, Add Files" value="3" type="GuiResourceData"/>
+<property name="PAResourceQtoS.SrcChooserPanel_CREATE_FILE, Create File" value="2" type="GuiResourceData"/>
+<property name="Parallel_Adder_TB.v, 206, 213" value="1" type="GuiResourceData"/>
+<property name="Parallel_Adder_TB.v, 265, 493" value="1" type="GuiResourceData"/>
+<property name="Parallel_Adder_TB.v, 289, 160" value="1" type="GuiResourceData"/>
+<property name="Parallel_Adder_TB.v, 314, 507" value="1" type="GuiResourceData"/>
+<property name="Parallel_Adder_TB.v, 43, 199" value="1" type="GuiResourceData"/>
+<property name="RDIResource.BaseDialog_OK, OK" value="5" type="GuiResourceData"/>
+<property name="RDIResourceCommand.RDICommands_LINE_COMMENT, (String" value="1" type="GuiResourceData"/>
+</item>
+<item name="Other">
+<property name="GuiMode" value="2" type="GuiMode"/>
+<property name="BatchMode" value="0" type="BatchMode"/>
+<property name="TclMode" value="1" type="TclMode"/>
+</item>
+</section>
+</application>
+</document>
