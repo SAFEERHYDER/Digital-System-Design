@@ -20,8 +20,9 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module Parallel_Adder(sum, c_out, a, b);
+module Parallel_Adder(sum, c_out, a, b, c_in);
 input [3:0] a, b;
+input c_in;
 output [3:0] sum;
 output c_out;
 
