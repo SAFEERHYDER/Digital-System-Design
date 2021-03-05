@@ -266,3 +266,35 @@ selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation S
 selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Priority_Encoder (Priority_Encoder.v)]", 1, false); // z:k (G:JPanel, cv:JFrame)
 selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Priority_Encoder (Priority_Encoder.v)]", 1, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
 selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Multiplexer_8to1_conditional.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+// [GUI Memory]: 82 MB (+183kb) [00:11:05]
+// [GUI Memory]: 87 MB (+286kb) [00:15:52]
+// HMemoryUtils.trashcanNow. Engine heap size: 584 MB. GUI used memory: 42 MB. Current time: 3/4/21 7:34:11 PM PKT
+// HMemoryUtils.trashcanNow. Engine heap size: 584 MB. GUI used memory: 38 MB. Current time: 3/4/21 8:04:14 PM PKT
+// HMemoryUtils.trashcanNow. Engine heap size: 584 MB. GUI used memory: 37 MB. Current time: 3/4/21 8:34:17 PM PKT
+// HMemoryUtils.trashcanNow. Engine heap size: 584 MB. GUI used memory: 36 MB. Current time: 3/4/21 9:04:19 PM PKT
+// HMemoryUtils.trashcanNow. Engine heap size: 584 MB. GUI used memory: 36 MB. Current time: 3/4/21 9:34:22 PM PKT
+// [GUI Memory]: 91 MB (+167kb) [02:51:09]
+// HMemoryUtils.trashcanNow. Engine heap size: 584 MB. GUI used memory: 36 MB. Current time: 3/4/21 10:04:25 PM PKT
+// HMemoryUtils.trashcanNow. Engine heap size: 584 MB. GUI used memory: 36 MB. Current time: 3/4/21 10:34:28 PM PKT
+// HMemoryUtils.trashcanNow. Engine heap size: 584 MB. GUI used memory: 36 MB. Current time: 3/4/21 11:04:31 PM PKT
+// HMemoryUtils.trashcanNow. Engine heap size: 584 MB. GUI used memory: 36 MB. Current time: 3/4/21 11:34:34 PM PKT
+// HMemoryUtils.trashcanNow. Engine heap size: 584 MB. GUI used memory: 36 MB. Current time: 3/5/21 12:04:37 AM PKT
+// HMemoryUtils.trashcanNow. Engine heap size: 584 MB. GUI used memory: 36 MB. Current time: 3/5/21 12:34:40 AM PKT
+// HMemoryUtils.trashcanNow. Engine heap size: 584 MB. GUI used memory: 36 MB. Current time: 3/5/21 1:04:43 AM PKT
+// HMemoryUtils.trashcanNow. Engine heap size: 584 MB. GUI used memory: 36 MB. Current time: 3/5/21 1:34:46 AM PKT
+// HMemoryUtils.trashcanNow. Engine heap size: 584 MB. GUI used memory: 36 MB. Current time: 3/5/21 2:04:49 AM PKT
+// HMemoryUtils.trashcanNow. Engine heap size: 584 MB. GUI used memory: 36 MB. Current time: 3/5/21 2:34:52 AM PKT
+// HMemoryUtils.trashcanNow. Engine heap size: 584 MB. GUI used memory: 36 MB. Current time: 3/5/21 3:04:55 AM PKT
+// HMemoryUtils.trashcanNow. Engine heap size: 584 MB. GUI used memory: 36 MB. Current time: 3/5/21 3:34:58 AM PKT
+// HMemoryUtils.trashcanNow. Engine heap size: 584 MB. GUI used memory: 36 MB. Current time: 3/5/21 4:05:01 AM PKT
+// HMemoryUtils.trashcanNow. Engine heap size: 584 MB. GUI used memory: 36 MB. Current time: 3/5/21 4:35:04 AM PKT
+// HMemoryUtils.trashcanNow. Engine heap size: 584 MB. GUI used memory: 36 MB. Current time: 3/5/21 5:05:07 AM PKT
+// HMemoryUtils.trashcanNow. Engine heap size: 584 MB. GUI used memory: 36 MB. Current time: 3/5/21 5:35:10 AM PKT
+// HMemoryUtils.trashcanNow. Engine heap size: 584 MB. GUI used memory: 36 MB. Current time: 3/5/21 6:05:13 AM PKT
+// HMemoryUtils.trashcanNow. Engine heap size: 584 MB. GUI used memory: 36 MB. Current time: 3/5/21 6:35:16 AM PKT
+// HMemoryUtils.trashcanNow. Engine heap size: 584 MB. GUI used memory: 36 MB. Current time: 3/5/21 7:05:19 AM PKT
+// HMemoryUtils.trashcanNow. Engine heap size: 584 MB. GUI used memory: 36 MB. Current time: 3/5/21 7:35:22 AM PKT
+// HMemoryUtils.trashcanNow. Engine heap size: 584 MB. GUI used memory: 36 MB. Current time: 3/5/21 8:05:25 AM PKT
+// HMemoryUtils.trashcanNow. Engine heap size: 584 MB. GUI used memory: 36 MB. Current time: 3/5/21 8:35:28 AM PKT
+// HMemoryUtils.trashcanNow. Engine heap size: 584 MB. GUI used memory: 36 MB. Current time: 3/5/21 9:05:31 AM PKT
+// HMemoryUtils.trashcanNow. Engine heap size: 584 MB. GUI used memory: 36 MB. Current time: 3/5/21 9:35:34 AM PKT
