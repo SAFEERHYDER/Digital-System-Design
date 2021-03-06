@@ -35,7 +35,7 @@ begin
     #10 In2 = 0; In1 = 1;
     #10 In2 = 1; In1 = 0;
     #10 In2 = 1; In1 = 1;
-    #100 $stop;    // finish the sumulation at 100 ns
+    #10 $stop;    // finish the sumulation at 100 ns
 end
 
 // module instantiation
