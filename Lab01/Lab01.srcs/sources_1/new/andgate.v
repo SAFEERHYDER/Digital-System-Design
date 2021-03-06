@@ -28,7 +28,7 @@ output Out;
 
 
 // Logic
-and and1(Out, In1, In2);
+and #3 and1(Out, In1, In2);
 
 // end of module 
 endmodule
