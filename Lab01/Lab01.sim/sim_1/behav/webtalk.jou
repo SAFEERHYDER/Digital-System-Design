@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+# Start of session at: Fri Mar 05 22:14:35 2021
+# Process ID: 6240
+# Current directory: D:/Digital-System-Design/Lab01/Lab01.sim/sim_1/behav
+# Command line: wbtcv.exe -mode batch -source D:/Digital-System-Design/Lab01/Lab01.sim/sim_1/behav/xsim.dir/andgate_test_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: D:/Digital-System-Design/Lab01/Lab01.sim/sim_1/behav/webtalk.log
+# Journal file: D:/Digital-System-Design/Lab01/Lab01.sim/sim_1/behav\webtalk.jou
+#-----------------------------------------------------------
+source D:/Digital-System-Design/Lab01/Lab01.sim/sim_1/behav/xsim.dir/andgate_test_behav/webtalk/xsim_webtalk.tcl -notrace
