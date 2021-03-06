@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="14" Path="D:/Digital-System-Design/DSD_Spring21/Lab03/Lab03.xpr">
+<Project Version="7" Minor="14" Path="D:/Digital-System-Design/Lab03/Lab03.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="4f8846ff641845bf801ec7fdd9741c8b"/>
