@@ -10,3 +10,296 @@
 # Journal file: D:/Digital-System-Design/Lab01\vivado.jou
 #-----------------------------------------------------------
 start_gui
+open_project D:/Digital-System-Design/Lab01/Lab01.xpr
+INFO: [Project 1-313] Project file moved from 'D:/Digital-System-Design/DSD_Spring21/Lab01' since last save.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'D:/Lab01_spring21.srcs/sources_1/new/Half_Adder.v', nor could it be found using path 'D:/Digital-System-Design/Lab01_spring21.srcs/sources_1/new/Half_Adder.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'D:/Lab01_spring21.srcs/sources_1/new/Full_Adder.v', nor could it be found using path 'D:/Digital-System-Design/Lab01_spring21.srcs/sources_1/new/Full_Adder.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'D:/Lab01_spring21.srcs/sources_1/new/Parallel_Adder.v', nor could it be found using path 'D:/Digital-System-Design/Lab01_spring21.srcs/sources_1/new/Parallel_Adder.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'D:/Lab01_spring21.srcs/sources_1/new/Carry_LookAhead_Adder.v', nor could it be found using path 'D:/Digital-System-Design/Lab01_spring21.srcs/sources_1/new/Carry_LookAhead_Adder.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'D:/Lab01_spring21.srcs/sources_1/new/Inverter.v', nor could it be found using path 'D:/Digital-System-Design/Lab01_spring21.srcs/sources_1/new/Inverter.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'D:/Lab01_spring21.srcs/constrs_1/new/Full_Adder.xdc', nor could it be found using path 'D:/Digital-System-Design/Lab01_spring21.srcs/constrs_1/new/Full_Adder.xdc'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'D:/Lab01_spring21.srcs/constrs_1/new/Inverter.xdc', nor could it be found using path 'D:/Digital-System-Design/Lab01_spring21.srcs/constrs_1/new/Inverter.xdc'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'D:/Lab01_spring21.srcs/sim_1/new/Parallel_Adder_TB.v', nor could it be found using path 'D:/Digital-System-Design/Lab01_spring21.srcs/sim_1/new/Parallel_Adder_TB.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'D:/Lab01_spring21.srcs/sim_1/new/Full_Adder_TB.v', nor could it be found using path 'D:/Digital-System-Design/Lab01_spring21.srcs/sim_1/new/Full_Adder_TB.v'.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'D:/Digital-System-Design/Lab01/Lab01.srcs/sim_1/new/Multiplexer_4_to_1.v', nor could it be found using path 'D:/Digital-System-Design/DSD_Spring21/Lab01/Lab01.srcs/sim_1/new/Multiplexer_4_to_1.v'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
+open_project: Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 795.598 ; gain = 109.449
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+remove_files {D:/Lab01_spring21.srcs/sources_1/new/Full_Adder.v D:/Lab01_spring21.srcs/sources_1/new/Half_Adder.v D:/Lab01_spring21.srcs/sources_1/new/Parallel_Adder.v}
+remove_files -fileset sim_1 D:/Lab01_spring21.srcs/sim_1/new/Parallel_Adder_TB.v
+remove_files -fileset sim_1 D:/Digital-System-Design/Lab01/Lab01.srcs/sim_1/new/Multiplexer_4_to_1.v
+file delete -force D:/Digital-System-Design/Lab01/Lab01.srcs/sim_1/new/Multiplexer_4_to_1.v
+add_files -fileset sim_1 -norecurse D:/Digital-System-Design/Lab01/Lab01.srcs/sources_1/new/Multiplexer_4_to_1.v
+import_files -fileset sim_1 -force -norecurse D:/Digital-System-Design/Lab01/Lab01.srcs/sources_1/new/Multiplexer_4_to_1.v
+remove_files D:/Digital-System-Design/Lab01/Lab01.srcs/sources_1/new/Multiplexer_4_to_1.v
+file delete -force D:/Digital-System-Design/Lab01/Lab01.srcs/sources_1/new/Multiplexer_4_to_1.v
+update_compile_order -fileset sources_1
+add_files -norecurse D:/Digital-System-Design/Lab01/Lab01.srcs/sim_1/imports/new/Multiplexer_4_to_1.v
+import_files -force -norecurse D:/Digital-System-Design/Lab01/Lab01.srcs/sim_1/imports/new/Multiplexer_4_to_1.v
+remove_files -fileset sim_1 D:/Digital-System-Design/Lab01/Lab01.srcs/sim_1/imports/new/Multiplexer_4_to_1.v
+file delete -force D:/Digital-System-Design/Lab01/Lab01.srcs/sim_1/imports/new/Multiplexer_4_to_1.v
+update_compile_order -fileset sources_1
+import_files
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'constrs_1'
+WARNING: [filemgmt 20-342] File / dir doesn't exist, skipping: D:/Lab01_spring21.srcs/constrs_1/new/Full_Adder.xdc
+WARNING: [filemgmt 20-342] File / dir doesn't exist, skipping: D:/Lab01_spring21.srcs/constrs_1/new/Inverter.xdc
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sim_1'
+WARNING: [filemgmt 20-342] File / dir doesn't exist, skipping: D:/Lab01_spring21.srcs/sim_1/new/Full_Adder_TB.v
+INFO: [filemgmt 20-348] Importing the appropriate files for fileset: 'sources_1'
+WARNING: [filemgmt 20-342] File / dir doesn't exist, skipping: D:/Lab01_spring21.srcs/sources_1/new/Carry_LookAhead_Adder.v
+WARNING: [filemgmt 20-342] File / dir doesn't exist, skipping: D:/Lab01_spring21.srcs/sources_1/new/Inverter.v
+remove_files D:/Digital-System-Design/Lab01/Lab01.srcs/sources_1/imports/new/Multiplexer_4_to_1.v
+file delete -force D:/Digital-System-Design/Lab01/Lab01.srcs/sources_1/imports/new/Multiplexer_4_to_1.v
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+remove_files {D:/Lab01_spring21.srcs/sources_1/new/Carry_LookAhead_Adder.v D:/Lab01_spring21.srcs/sources_1/new/Inverter.v}
+remove_files -fileset sim_1 D:/Lab01_spring21.srcs/sim_1/new/Full_Adder_TB.v
+remove_files -fileset constrs_1 {D:/Lab01_spring21.srcs/constrs_1/new/Full_Adder.xdc D:/Lab01_spring21.srcs/constrs_1/new/Inverter.xdc}
+add_files -norecurse {D:/Digital-System-Design/Lab01/Lab01.srcs/sources_1/new/Sixteen_Bit_Adder.v D:/Digital-System-Design/Lab01/Lab01.srcs/sources_1/new/Parallel_Adder.v D:/Digital-System-Design/Lab01/Lab01.srcs/sources_1/new/Half_Adder.v D:/Digital-System-Design/Lab01/Lab01.srcs/sources_1/new/gates.v D:/Digital-System-Design/Lab01/Lab01.srcs/sources_1/new/SixtyFour_bit_Adder.v D:/Digital-System-Design/Lab01/Lab01.srcs/sources_1/new/Inverter.v D:/Digital-System-Design/Lab01/Lab01.srcs/sources_1/new/Full_Adder.v D:/Digital-System-Design/Lab01/Lab01.srcs/sources_1/new/andgate.v}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+add_files -fileset sim_1 -norecurse {D:/Digital-System-Design/Lab01/Lab01.srcs/sim_1/new/Full_Adder_TB.v D:/Digital-System-Design/Lab01/Lab01.srcs/sim_1/new/Half_Adder_Test.v D:/Digital-System-Design/Lab01/Lab01.srcs/sim_1/new/Sixteenbit_test.v D:/Digital-System-Design/Lab01/Lab01.srcs/sim_1/new/Parallel_Adder_TB.v D:/Digital-System-Design/Lab01/Lab01.srcs/sim_1/new/andgate_test.v D:/Digital-System-Design/Lab01/Lab01.srcs/sim_1/new/gates_test.v D:/Digital-System-Design/Lab01/Lab01.srcs/sim_1/new/sixtyfour_tdder_test.v}
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+set_property is_enabled false [get_files  {D:/Digital-System-Design/Lab01/Lab01.srcs/sources_1/new/Inverter.v D:/Digital-System-Design/Lab01/Lab01.srcs/sources_1/new/andgate.v D:/Digital-System-Design/Lab01/Lab01.srcs/sources_1/new/gates.v}]
+set_property is_enabled false [get_files  D:/Digital-System-Design/Lab01/Lab01.srcs/sim_1/new/Full_Adder_TB.v]
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+set_property is_enabled false [get_files  D:/Digital-System-Design/Lab01/Lab01.srcs/sim_1/new/Half_Adder_Test.v]
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+set_property is_enabled false [get_files  D:/Digital-System-Design/Lab01/Lab01.srcs/sim_1/new/Parallel_Adder_TB.v]
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+set_property is_enabled false [get_files  D:/Digital-System-Design/Lab01/Lab01.srcs/sources_1/new/SixtyFour_bit_Adder.v]
+update_compile_order -fileset sources_1
+set_property is_enabled false [get_files  D:/Digital-System-Design/Lab01/Lab01.srcs/sim_1/new/andgate_test.v]
+set_property is_enabled true [get_files  D:/Digital-System-Design/Lab01/Lab01.srcs/sources_1/new/SixtyFour_bit_Adder.v]
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+set_property is_enabled false [get_files  D:/Digital-System-Design/Lab01/Lab01.srcs/sim_1/new/Sixteenbit_test.v]
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+set_property is_enabled false [get_files  D:/Digital-System-Design/Lab01/Lab01.srcs/sim_1/new/gates_test.v]
+update_compile_order -fileset sim_1
+set_property is_enabled false [get_files  D:/Digital-System-Design/Lab01/Lab01.srcs/constrs_1/new/Multiplexer_4_to_1.xdc]
+open_project D:/Digital-System-Design/Lab02/Lab02.xpr
+INFO: [Project 1-313] Project file moved from 'D:/Digital-System-Design/DSD_Spring21/Lab02' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
+update_compile_order -fileset sources_1
+close_project
+****** Webtalk v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source D:/Digital-System-Design/Lab02/Lab02.hw/webtalk/labtool_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Fri Mar 05 22:09:51 2021...
+set_property is_enabled false [get_files  {D:/Digital-System-Design/Lab01/Lab01.srcs/sources_1/new/SixtyFour_bit_Adder.v D:/Digital-System-Design/Lab01/Lab01.srcs/sources_1/new/Sixteen_Bit_Adder.v}]
+update_compile_order -fileset sources_1
+set_property is_enabled false [get_files  D:/Digital-System-Design/Lab01/Lab01.srcs/sources_1/new/Parallel_Adder.v]
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+set_property is_enabled false [get_files  {D:/Digital-System-Design/Lab01/Lab01.srcs/sources_1/new/Full_Adder.v D:/Digital-System-Design/Lab01/Lab01.srcs/sources_1/new/Half_Adder.v}]
+update_compile_order -fileset sources_1
+set_property is_enabled false [get_files  D:/Digital-System-Design/Lab01/Lab01.srcs/sim_1/new/sixtyfour_tdder_test.v]
+update_compile_order -fileset sim_1
+set_property is_enabled true [get_files  D:/Digital-System-Design/Lab01/Lab01.srcs/sim_1/new/andgate_test.v]
+update_compile_order -fileset sim_1
+set_property is_enabled true [get_files  D:/Digital-System-Design/Lab01/Lab01.srcs/sources_1/new/andgate.v]
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'andgate_test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Digital-System-Design/Lab01/Lab01.sim/sim_1/behav'
+"xvlog -m64 --relax -prj andgate_test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Digital-System-Design/Lab01/Lab01.srcs/sources_1/new/andgate.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module andgate
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Digital-System-Design/Lab01/Lab01.srcs/sim_1/new/andgate_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module andgate_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Digital-System-Design/Lab01/Lab01.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Digital-System-Design/Lab01/Lab01.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto 7257f01112a14c5ea4202afd546c08f0 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot andgate_test_behav xil_defaultlib.andgate_test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.andgate
+Compiling module xil_defaultlib.andgate_test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot andgate_test_behav
+
+****** Webtalk v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source D:/Digital-System-Design/Lab01/Lab01.sim/sim_1/behav/xsim.dir/andgate_test_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Fri Mar 05 22:11:55 2021...
+INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Digital-System-Design/Lab01/Lab01.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "andgate_test_behav -key {Behavioral:sim_1:Functional:andgate_test} -tclbatch {andgate_test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+source andgate_test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'andgate_test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 882.340 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'andgate_test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Digital-System-Design/Lab01/Lab01.sim/sim_1/behav'
+"xvlog -m64 --relax -prj andgate_test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Digital-System-Design/Lab01/Lab01.srcs/sources_1/new/andgate.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module andgate
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Digital-System-Design/Lab01/Lab01.srcs/sim_1/new/andgate_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module andgate_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Digital-System-Design/Lab01/Lab01.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Digital-System-Design/Lab01/Lab01.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto 7257f01112a14c5ea4202afd546c08f0 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot andgate_test_behav xil_defaultlib.andgate_test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.andgate
+Compiling module xil_defaultlib.andgate_test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot andgate_test_behav
+
+****** Webtalk v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source D:/Digital-System-Design/Lab01/Lab01.sim/sim_1/behav/xsim.dir/andgate_test_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Fri Mar 05 22:13:53 2021...
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Digital-System-Design/Lab01/Lab01.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "andgate_test_behav -key {Behavioral:sim_1:Functional:andgate_test} -tclbatch {andgate_test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+source andgate_test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'andgate_test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+INFO: [USF-XSim-27] Simulation object is 'sim_1'
+INFO: [USF-XSim-37] Inspecting design source files for 'andgate_test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Digital-System-Design/Lab01/Lab01.sim/sim_1/behav'
+"xvlog -m64 --relax -prj andgate_test_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Digital-System-Design/Lab01/Lab01.srcs/sources_1/new/andgate.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module andgate
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Digital-System-Design/Lab01/Lab01.srcs/sim_1/new/andgate_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module andgate_test
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Digital-System-Design/Lab01/Lab01.sim/sim_1/behav/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Digital-System-Design/Lab01/Lab01.sim/sim_1/behav'
+Vivado Simulator 2016.2
+Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto 7257f01112a14c5ea4202afd546c08f0 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot andgate_test_behav xil_defaultlib.andgate_test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.andgate
+Compiling module xil_defaultlib.andgate_test
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot andgate_test_behav
+
+****** Webtalk v2016.2 (64-bit)
+  **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+  **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
+    ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+
+source D:/Digital-System-Design/Lab01/Lab01.sim/sim_1/behav/xsim.dir/andgate_test_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Fri Mar 05 22:14:35 2021...
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Digital-System-Design/Lab01/Lab01.sim/sim_1/behav'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "andgate_test_behav -key {Behavioral:sim_1:Functional:andgate_test} -tclbatch {andgate_test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2016.2
+Time resolution is 1 ps
+source andgate_test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'andgate_test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
