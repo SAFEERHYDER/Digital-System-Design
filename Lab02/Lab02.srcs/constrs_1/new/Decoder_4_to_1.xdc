@@ -1,3 +1,4 @@
+# Board Nexys 4 DDR 
 set_property IOSTANDARD LVCMOS33 [get_ports A]
 set_property IOSTANDARD LVCMOS33 [get_ports B]
 set_property IOSTANDARD LVCMOS33 [get_ports En]
