@@ -19,7 +19,7 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
-
+// Author: Safeer Hyder
 module Multiplexer_8to1_conditional(Out, In, S);
 input [7:0] In; // vectored
 input [2:0] S;
