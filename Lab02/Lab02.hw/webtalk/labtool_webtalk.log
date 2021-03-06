@@ -4,6 +4,5 @@
   **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
     ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 
-source D:/Digital-System-Design/DSD_Spring21/Lab02/Lab02.hw/webtalk/labtool_webtalk.tcl -notrace
-Access is denied.
-INFO: [Common 17-206] Exiting Webtalk at Thu Mar 04 18:26:13 2021...
+source D:/Digital-System-Design/Lab02/Lab02.hw/webtalk/labtool_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Fri Mar 05 22:09:51 2021...
