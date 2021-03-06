@@ -2,30 +2,23 @@
 # Vivado v2016.2 (64-bit)
 # SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
 # IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016
-# Start of session at: Thu Mar 04 18:59:58 2021
-# Process ID: 1744
-# Current directory: D:/Digital-System-Design/DSD_Spring21/Lab03
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4324 D:\Digital-System-Design\DSD_Spring21\Lab03\Lab03.xpr
-# Log file: D:/Digital-System-Design/DSD_Spring21/Lab03/vivado.log
-# Journal file: D:/Digital-System-Design/DSD_Spring21/Lab03\vivado.jou
+# Start of session at: Sat Mar 06 13:33:34 2021
+# Process ID: 8204
+# Current directory: D:/Digital-System-Design/Lab03
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5724 D:\Digital-System-Design\Lab03\Lab03.xpr
+# Log file: D:/Digital-System-Design/Lab03/vivado.log
+# Journal file: D:/Digital-System-Design/Lab03\vivado.jou
 #-----------------------------------------------------------
 start_gui
-open_project D:/Digital-System-Design/DSD_Spring21/Lab03/Lab03.xpr
+open_project D:/Digital-System-Design/Lab03/Lab03.xpr
 Scanning sources...
 Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
 update_compile_order -fileset sources_1
-close [ open D:/Digital-System-Design/DSD_Spring21/Lab03/Lab03.srcs/sources_1/new/Multiplexer_8to1_conditional.v w ]
-add_files D:/Digital-System-Design/DSD_Spring21/Lab03/Lab03.srcs/sources_1/new/Multiplexer_8to1_conditional.v
+2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:09 . Memory (MB): peak = 799.531 ; gain = 165.418
 update_compile_order -fileset sources_1
-set_property SOURCE_SET sources_1 [get_filesets sim_1]
-close [ open D:/Digital-System-Design/DSD_Spring21/Lab03/Lab03.srcs/sim_1/new/Multiplexer_8to1_conditional_TB.v w ]
-add_files -fileset sim_1 D:/Digital-System-Design/DSD_Spring21/Lab03/Lab03.srcs/sim_1/new/Multiplexer_8to1_conditional_TB.v
-update_compile_order -fileset sim_1
-update_compile_order -fileset sim_1
-update_compile_order -fileset sim_1
-close [ open D:/Digital-System-Design/DSD_Spring21/Lab03/Lab03.srcs/sources_1/new/Verilog_operators.v w ]
-add_files D:/Digital-System-Design/DSD_Spring21/Lab03/Lab03.srcs/sources_1/new/Verilog_operators.v
-update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Sat Mar 06 13:33:53 2021...
