@@ -629,3 +629,486 @@ selectCodeEditor("sixtyfour_tdder_test.v", 271, 361); // bH:N (JPanel:JComponent
 // TclEventType: DG_UPDATE_GRAPH
 selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "sixtyfour_tdder_test.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
 selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "SixtyFour_bit_Adder.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+// Elapsed time: 48 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SixtyFour_bit_Adder (SixtyFour_bit_Adder.v)]", 1, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SixtyFour_bit_Adder (SixtyFour_bit_Adder.v)]", 1, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+selectCodeEditor("SixtyFour_bit_Adder.v", 356, 310); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("SixtyFour_bit_Adder.v", 171, 25); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("SixtyFour_bit_Adder.v", 171, 25, false, false, false, false, true); // bH:N (JPanel:JComponent, cv:JFrame) - Double Click
+selectCodeEditor("SixtyFour_bit_Adder.v", 171, 25); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("SixtyFour_bit_Adder.v", 271, 27); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources, gates.v]", 9, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources, gates.v]", 9, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+// [GUI Memory]: 116 MB (+1135kb) [00:10:41]
+selectCodeEditor("gates.v", 127, 498); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 40 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_OPEN_PROJECT, "Open Project..."); // af:JMenuItem (JPopupMenu:JComponent, cv:JFrame)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // V:JideMenu (CommandMenuBar:CommandBar, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_PROJECT
+setFileChooser("D:/Digital-System-Design/Lab02/Lab02.xpr");
+// Opening Vivado Project: D:/Digital-System-Design/Lab02/Lab02.xpr. Version: Vivado v2016.2 
+// bL:g (cv:JFrame):  Open Project : addNotify
+selectButton("PAResourceOtoP.PABaseTab_WOULD_YOU_LIKE_TO_CLOSE_CURRENTLY_No", "No"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, T:JDialog)
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project D:/Digital-System-Design/Lab02/Lab02.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'D:/Digital-System-Design/DSD_Spring21/Lab02' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// HMemoryUtils.trashcanNow. Engine heap size: 637 MB. GUI used memory: 58 MB. Current time: 3/5/21 4:42:44 PM PKT
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.2/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 645 MB (+3493kb) [00:11:37]
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Project name: Lab02; location: D:/Digital-System-Design/Lab02; part: xc7z020clg484-1
+// 'i' command handler elapsed time: 12 seconds
+dismissDialog("Open Project"); // bL:g (cv:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// Tcl Message: update_compile_order -fileset sources_1 
+// [GUI Memory]: 126 MB (+4813kb) [00:11:40]
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources]", 2); // z:k (G:JPanel, cv:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 4); // z:k (G:JPanel, cv:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 7); // z:k (G:JPanel, cv:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 8); // z:k (G:JPanel, cv:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Carry_LookAhead_Adder_TB (Carry_LookAhead_Adder_TB.v)]", 9); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Carry_LookAhead_Adder_TB (Carry_LookAhead_Adder_TB.v)]", 9, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Carry_LookAhead_Adder_TB (Carry_LookAhead_Adder_TB.v)]", 9, true, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click - Node
+// [GUI Memory]: 133 MB (+508kb) [00:11:47]
+// [GUI Memory]: 144 MB (+4195kb) [00:11:47]
+// [Engine Memory]: 689 MB (+12033kb) [00:11:47]
+// [GUI Memory]: 152 MB (+1055kb) [00:11:51]
+selectCodeEditor("Carry_LookAhead_Adder_TB.v", 33, 155); // bH:N (JPanel:JComponent, cv:JFrame)
+// [GUI Memory]: 160 MB (+368kb) [00:12:11]
+// [GUI Memory]: 169 MB (+831kb) [00:13:26]
+// HMemoryUtils.trashcanNow. Engine heap size: 733 MB. GUI used memory: 63 MB. Current time: 3/5/21 4:44:48 PM PKT
+// [Engine Memory]: 733 MB (+9825kb) [00:13:41]
+// Elapsed time: 392 seconds
+selectCodeEditor("Carry_LookAhead_Adder_TB.v", 190, 332); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 921 seconds
+selectCodeEditor("Carry_LookAhead_Adder_TB.v", 111, 209); // bH:N (JPanel:JComponent, cv:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 734 MB. GUI used memory: 63 MB. Current time: 3/5/21 5:14:51 PM PKT
+// HMemoryUtils.trashcanNow. Engine heap size: 734 MB. GUI used memory: 60 MB. Current time: 3/5/21 5:44:54 PM PKT
+// HMemoryUtils.trashcanNow. Engine heap size: 734 MB. GUI used memory: 51 MB. Current time: 3/5/21 6:14:57 PM PKT
+// HMemoryUtils.trashcanNow. Engine heap size: 734 MB. GUI used memory: 50 MB. Current time: 3/5/21 6:44:59 PM PKT
+// HMemoryUtils.trashcanNow. Engine heap size: 734 MB. GUI used memory: 50 MB. Current time: 3/5/21 7:15:02 PM PKT
+// HMemoryUtils.trashcanNow. Engine heap size: 734 MB. GUI used memory: 50 MB. Current time: 3/5/21 7:45:05 PM PKT
+// HMemoryUtils.trashcanNow. Engine heap size: 734 MB. GUI used memory: 50 MB. Current time: 3/5/21 8:15:08 PM PKT
+// HMemoryUtils.trashcanNow. Engine heap size: 734 MB. GUI used memory: 50 MB. Current time: 3/5/21 8:45:10 PM PKT
+// HMemoryUtils.trashcanNow. Engine heap size: 734 MB. GUI used memory: 50 MB. Current time: 3/5/21 9:15:13 PM PKT
+// HMemoryUtils.trashcanNow. Engine heap size: 734 MB. GUI used memory: 50 MB. Current time: 3/5/21 9:45:16 PM PKT
+// Elapsed time: 18291 seconds
+closeMainWindow("Lab02 - [D:/Digital-System-Design/Lab02/Lab02.xpr] - Vivado 2016.2"); // cv:JFrame
+// Run Command: PAResourceCommand.PACommandNames_CLOSE_PROJECT
+// G:be (cv:JFrame): Close Project: addNotify
+selectCheckBox(RDIResource.MessageWithOptionDialog_DONT_SHOW_THIS_DIALOG_AGAIN, "Don't show this dialog again", true); // h:JCheckBox (JPanel:JComponent, G:be): TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, G:be)
+// bL:g (cv:JFrame):  Close Project : addNotify
+dismissDialog("Close Project"); // G:be (cv:JFrame)
+// TclEventType: PROJECT_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 734 MB. GUI used memory: 51 MB. Current time: 3/5/21 10:09:49 PM PKT
+// 'b' command handler elapsed time: 3 seconds
+// Tcl Message: close_project 
+dismissDialog("Close Project"); // bL:g (cv:JFrame)
+// Tcl Message: ****** Webtalk v2016.2 (64-bit)   **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016   **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016     ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.  source D:/Digital-System-Design/Lab02/Lab02.hw/webtalk/labtool_webtalk.tcl -notrace INFO: [Common 17-206] Exiting Webtalk at Fri Mar 05 22:09:51 2021... 
+selectCodeEditor("gates.v", 245, 285); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SixtyFour_bit_Adder (SixtyFour_bit_Adder.v)]", 1, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SixtyFour_bit_Adder (SixtyFour_bit_Adder.v)]", 1, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SixtyFour_bit_Adder (SixtyFour_bit_Adder.v)]", 1, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SixtyFour_bit_Adder (SixtyFour_bit_Adder.v)]", 1, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SixtyFour_bit_Adder (SixtyFour_bit_Adder.v)]", 1, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SixtyFour_bit_Adder (SixtyFour_bit_Adder.v)]", 1, true, false, false, false, true, false); // z:k (G:JPanel, cv:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_SRC_DISABLE, "Disable File"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SRC_DISABLE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: set_property is_enabled false [get_files  {D:/Digital-System-Design/Lab01/Lab01.srcs/sources_1/new/SixtyFour_bit_Adder.v D:/Digital-System-Design/Lab01/Lab01.srcs/sources_1/new/Sixteen_Bit_Adder.v}] 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Parallel_Adder (Parallel_Adder.v)]", 1, true); // z:k (G:JPanel, cv:JFrame) - Node
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Parallel_Adder (Parallel_Adder.v)]", 1, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Parallel_Adder (Parallel_Adder.v)]", 1, true, false, false, false, true, false); // z:k (G:JPanel, cv:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_SRC_DISABLE, "Disable File"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SRC_DISABLE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: set_property is_enabled false [get_files  D:/Digital-System-Design/Lab01/Lab01.srcs/sources_1/new/Parallel_Adder.v] 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Full_Adder (Full_Adder.v)]", 1, false); // z:k (G:JPanel, cv:JFrame)
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Full_Adder (Full_Adder.v)]", 1, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Half_Adder (Half_Adder.v)]", 2, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Full_Adder (Full_Adder.v)]", 1, false, false, false, false, true, false); // z:k (G:JPanel, cv:JFrame) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_SRC_DISABLE, "Disable File"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SRC_DISABLE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: set_property is_enabled false [get_files  {D:/Digital-System-Design/Lab01/Lab01.srcs/sources_1/new/Full_Adder.v D:/Digital-System-Design/Lab01/Lab01.srcs/sources_1/new/Half_Adder.v}] 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, sixtyfour_tdder_test (sixtyfour_tdder_test.v)]", 15, true); // z:k (G:JPanel, cv:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, sixtyfour_tdder_test (sixtyfour_tdder_test.v)]", 15, true, false, false, false, true, false); // z:k (G:JPanel, cv:JFrame) - Popup Trigger - Node
+selectMenuItem(PAResourceCommand.PACommandNames_SRC_ENABLE, "Enable File"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_SRC_DISABLE, "Disable File"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SRC_DISABLE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: set_property is_enabled false [get_files  D:/Digital-System-Design/Lab01/Lab01.srcs/sim_1/new/sixtyfour_tdder_test.v] 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sim_1 
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D:b
+// TclEventType: DG_UPDATE_GRAPH
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D:b
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // D:b
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources, andgate.v]", 8, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources, andgate.v]", 8, false, false, false, false, false, true); // z:k (G:JPanel, cv:JFrame) - Double Click
+selectCodeEditor("andgate.v", 187, 514); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("andgate.v", 23, 519); // bH:N (JPanel:JComponent, cv:JFrame)
+selectCodeEditor("andgate.v", 27, 519); // bH:N (JPanel:JComponent, cv:JFrame)
+// Elapsed time: 12 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("andgate.v", 225, 383); // bH:N (JPanel:JComponent, cv:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Disabled Sources]", 15); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Disabled Sources, andgate_test.v]", 27, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Disabled Sources, andgate_test.v]", 27, false, false, false, false, true, false); // z:k (G:JPanel, cv:JFrame) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_SRC_ENABLE, "Enable File"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SRC_ENABLE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: set_property is_enabled true [get_files  D:/Digital-System-Design/Lab01/Lab01.srcs/sim_1/new/andgate_test.v] 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sim_1 
+// TclEventType: DG_UPDATE_GRAPH
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, andgate_test (andgate_test.v)]", 15); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources, andgate.v]", 8, false); // z:k (G:JPanel, cv:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Disabled Sources, andgate.v]", 8, false, false, false, false, true, false); // z:k (G:JPanel, cv:JFrame) - Popup Trigger
+selectMenuItem(PAResourceCommand.PACommandNames_SRC_ENABLE, "Enable File"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SRC_ENABLE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: set_property is_enabled true [get_files  D:/Digital-System-Design/Lab01/Lab01.srcs/sources_1/new/andgate.v] 
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_UPDATE_GRAPH
+selectCodeEditor("andgate.v", 226, 383); // bH:N (JPanel:JComponent, cv:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 11, false); // x:Y (w:G, cv:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// TclEventType: FILE_SET_CHANGE
+// f:bL (cv:JFrame):  Run Simulation : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [USF-XSim-27] Simulation object is 'sim_1' INFO: [USF-XSim-37] Inspecting design source files for 'andgate_test' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Digital-System-Design/Lab01/Lab01.sim/sim_1/behav' 
+/*
+#-------------------------------------------------------------------------------
+# Vivado v2016.2 (64-bit)
+# SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016
+# Current time: 3/5/21 10:11:51 PM PKT
+# Process ID: 9084
+# Platform: Windows
+#
+# This file is an indication that an internal application error occurred.
+# This information is useful for debugging. Please open a case with Xilinx
+# Technical Support with this file and a testcase attached.
+#-------------------------------------------------------------------------------
+ui.frmwork.CommandFailedException: boost::filesystem::remove: The process cannot access the file because it is being used by another process: "D:/Digital-System-Design/Lab01/.Xil/Vivado-9084-DESKTOP-QVHDBMM/ss9084.1487389777872.log" (See D:/Digital-System-Design/Lab01/vivado_pid9084.debug)
+*/
+// HOptionPane Error: "boost::filesystem::remove: The process cannot access the file because it is being<br>used by another process: "D:/Digital-System-Design/Lab01/.Xil/Vivado-9084-DESKTOP-<br>QVHDBMM/ss9084.1487389777872.log" (Vivado v2016.2 (64-bit))"
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: "xvlog -m64 --relax -prj andgate_test_vlog.prj" INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Digital-System-Design/Lab01/Lab01.srcs/sources_1/new/andgate.v" into library xil_defaultlib INFO: [VRFC 10-311] analyzing module andgate INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Digital-System-Design/Lab01/Lab01.srcs/sim_1/new/andgate_test.v" into library xil_defaultlib INFO: [VRFC 10-311] analyzing module andgate_test INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Digital-System-Design/Lab01/Lab01.sim/sim_1/behav/glbl.v" into library xil_defaultlib INFO: [VRFC 10-311] analyzing module glbl 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Digital-System-Design/Lab01/Lab01.sim/sim_1/behav' 
+// Tcl Message: Vivado Simulator 2016.2 Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved. Running: C:/Xilinx/Vivado/2016.2/bin/unwrapped/win64.o/xelab.exe -wto 7257f01112a14c5ea4202afd546c08f0 --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot andgate_test_behav xil_defaultlib.andgate_test xil_defaultlib.glbl -log elaborate.log  Using 2 slave threads. Starting static elaboration Completed static elaboration Starting simulation data flow analysis Completed simulation data flow analysis Time Resolution for simulation is 1ps Compiling module xil_defaultlib.andgate Compiling module xil_defaultlib.andgate_test Compiling module xil_defaultlib.glbl 
+// TclEventType: LAUNCH_SIM
+// TclEventType: LOAD_FEATURE
+// Tcl Message: Built simulation snapshot andgate_test_behav  ****** Webtalk v2016.2 (64-bit)   **** SW Build 1577090 on Thu Jun  2 16:32:40 MDT 2016   **** IP Build 1577682 on Fri Jun  3 12:00:54 MDT 2016     ** Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.  source D:/Digital-System-Design/Lab01/Lab01.sim/sim_1/behav/xsim.dir/andgate_test_behav/webtalk/xsim_webtalk.tcl -notrace INFO: [Common 17-206] Exiting Webtalk at Fri Mar 05 22:11:55 2021... 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Digital-System-Design/Lab01/Lab01.sim/sim_1/behav' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "andgate_test_behav -key {Behavioral:sim_1:Functional:andgate_test} -tclbatch {andgate_test.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2016.2 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: source andgate_test.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_STOPPED
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: # run 1000ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'andgate_test_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 882.340 ; gain = 0.000 
+// 'e' command handler elapsed time: 11 seconds
+// Elapsed time: 11 seconds
+selectButton("RDIResource.MainWindowUtils_ERROR_OK", "OK"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, T:JDialog)
+// Elapsed time: 81 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 1", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 108, 159, false, false, false, true, false); // n:a (JViewport:JComponent, cv:JFrame) - Popup Trigger
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectMenuItem((HResource) null, "Full View"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 734 MB. GUI used memory: 55 MB. Current time: 3/5/21 10:13:25 PM PKT
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "andgate.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 1", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "andgate_test.v", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("andgate_test.v", 57, 521); // bH:N (JPanel:JComponent, cv:JFrame)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: WAVEFORM_CLOSE_WCFG
+closeView(RDIResource.RDIViews_WAVEFORM_VIEWER, "Untitled 1"); // v:aK
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 11, false); // x:Y (w:G, cv:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// TclEventType: FILE_SET_CHANGE
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_CLOSE
+// G:be (cv:JFrame): Confirm Close: addNotify
+selectButton("PAResourceQtoS.SimulationRun_SIMULATION_ALREADY_RUNNING_DO_YOU_Yes", "Yes"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, T:JDialog)
+selectCheckBox(RDIResource.MessageWithOptionDialog_DONT_SHOW_THIS_DIALOG_AGAIN, "Don't show this dialog again", true); // h:JCheckBox (JPanel:JComponent, G:be): TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, G:be)
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// 'a' command handler elapsed time: 4 seconds
+// f:bL (cv:JFrame):  Run Simulation : addNotify
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+// TclEventType: FILE_SET_CHANGE
+dismissDialog("Confirm Close"); // G:be (cv:JFrame)
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [USF-XSim-27] Simulation object is 'sim_1' INFO: [USF-XSim-37] Inspecting design source files for 'andgate_test' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Digital-System-Design/Lab01/Lab01.sim/sim_1/behav' 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: "xvlog -m64 --relax -prj andgate_test_vlog.prj" INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Digital-System-Design/Lab01/Lab01.srcs/sources_1/new/andgate.v" into library xil_defaultlib INFO: [VRFC 10-311] analyzing module andgate INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Digital-System-Design/Lab01/Lab01.srcs/sim_1/new/andgate_test.v" into library xil_defaultlib INFO: [VRFC 10-311] analyzing module andgate_test INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Digital-System-Design/Lab01/Lab01.sim/sim_1/behav/glbl.v" into library xil_defaultlib INFO: [VRFC 10-311] analyzing module glbl 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Digital-System-Design/Lab01/Lab01.sim/sim_1/behav' 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Digital-System-Design/Lab01/Lab01.sim/sim_1/behav' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "andgate_test_behav -key {Behavioral:sim_1:Functional:andgate_test} -tclbatch {andgate_test.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2016.2 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_STOPPED
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: source andgate_test.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } # run 1000ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'andgate_test_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// 'e' command handler elapsed time: 9 seconds
+dismissDialog("Run Simulation"); // f:bL (cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 2", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "andgate_test.v", 1); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 2", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectButton(RDIResource.GraphicalView_ZOOM_FIT, "Waveform Viewer_zoom_fit"); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 734 MB. GUI used memory: 81 MB. Current time: 3/5/21 10:14:09 PM PKT
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "andgate.v", 0); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectCodeEditor("andgate.v", 49, 525); // bH:N (JPanel:JComponent, cv:JFrame)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: WAVEFORM_CLOSE_WCFG
+closeView(RDIResource.RDIViews_WAVEFORM_VIEWER, "Untitled 2"); // v:aK
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_UPDATE_GRAPH
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 11, false); // x:Y (w:G, cv:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // af:JMenuItem (am:JPopupMenu, cv:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// TclEventType: FILE_SET_CHANGE
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_CLOSE
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// f:bL (cv:JFrame):  Run Simulation : addNotify
+selectButton("PAResourceQtoS.SimulationRun_SIMULATION_ALREADY_RUNNING_DO_YOU_Yes", "Yes"); // BasicOptionPaneUI$ButtonFactory:JButton (JPanel:JComponent, T:JDialog)
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [USF-XSim-27] Simulation object is 'sim_1' INFO: [USF-XSim-37] Inspecting design source files for 'andgate_test' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Digital-System-Design/Lab01/Lab01.sim/sim_1/behav' 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: "xvlog -m64 --relax -prj andgate_test_vlog.prj" INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Digital-System-Design/Lab01/Lab01.srcs/sources_1/new/andgate.v" into library xil_defaultlib INFO: [VRFC 10-311] analyzing module andgate INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Digital-System-Design/Lab01/Lab01.srcs/sim_1/new/andgate_test.v" into library xil_defaultlib INFO: [VRFC 10-311] analyzing module andgate_test INFO: [VRFC 10-2263] Analyzing Verilog file "D:/Digital-System-Design/Lab01/Lab01.sim/sim_1/behav/glbl.v" into library xil_defaultlib INFO: [VRFC 10-311] analyzing module glbl 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Digital-System-Design/Lab01/Lab01.sim/sim_1/behav' 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Digital-System-Design/Lab01/Lab01.sim/sim_1/behav' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "andgate_test_behav -key {Behavioral:sim_1:Functional:andgate_test} -tclbatch {andgate_test.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2016.2 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_STOPPED
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: source andgate_test.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } # run 1000ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'andgate_test_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// 'e' command handler elapsed time: 7 seconds
+dismissDialog("Run Simulation"); // f:bL (cv:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 3", 2); // TdiGroup:JideTabbedPane (CodeEditorDocumentPane:DocumentPane, cv:JFrame)
+selectButton(RDIResource.GraphicalView_ZOOM_FIT, "Waveform Viewer_zoom_fit"); // y:JideButton (CommandBar:DockableBar, cv:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 734 MB. GUI used memory: 87 MB. Current time: 3/5/21 10:14:41 PM PKT
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 60, 102); // n:a (JViewport:JComponent, cv:JFrame)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 734 MB. GUI used memory: 55 MB. Current time: 3/5/21 10:44:43 PM PKT
+// HMemoryUtils.trashcanNow. Engine heap size: 734 MB. GUI used memory: 52 MB. Current time: 3/5/21 11:14:44 PM PKT
+// HMemoryUtils.trashcanNow. Engine heap size: 734 MB. GUI used memory: 50 MB. Current time: 3/5/21 11:44:45 PM PKT
+// HMemoryUtils.trashcanNow. Engine heap size: 734 MB. GUI used memory: 50 MB. Current time: 3/6/21 12:14:47 AM PKT
+// HMemoryUtils.trashcanNow. Engine heap size: 734 MB. GUI used memory: 50 MB. Current time: 3/6/21 12:44:49 AM PKT
+// HMemoryUtils.trashcanNow. Engine heap size: 734 MB. GUI used memory: 49 MB. Current time: 3/6/21 1:14:51 AM PKT
+// HMemoryUtils.trashcanNow. Engine heap size: 734 MB. GUI used memory: 50 MB. Current time: 3/6/21 1:44:53 AM PKT
+// HMemoryUtils.trashcanNow. Engine heap size: 734 MB. GUI used memory: 50 MB. Current time: 3/6/21 2:14:54 AM PKT
+// HMemoryUtils.trashcanNow. Engine heap size: 734 MB. GUI used memory: 50 MB. Current time: 3/6/21 2:44:56 AM PKT
+// HMemoryUtils.trashcanNow. Engine heap size: 734 MB. GUI used memory: 50 MB. Current time: 3/6/21 3:14:58 AM PKT
+// HMemoryUtils.trashcanNow. Engine heap size: 734 MB. GUI used memory: 50 MB. Current time: 3/6/21 3:44:59 AM PKT
+// HMemoryUtils.trashcanNow. Engine heap size: 734 MB. GUI used memory: 50 MB. Current time: 3/6/21 4:15:02 AM PKT
+// HMemoryUtils.trashcanNow. Engine heap size: 734 MB. GUI used memory: 50 MB. Current time: 3/6/21 4:45:03 AM PKT
+// HMemoryUtils.trashcanNow. Engine heap size: 734 MB. GUI used memory: 50 MB. Current time: 3/6/21 5:15:05 AM PKT
+// HMemoryUtils.trashcanNow. Engine heap size: 734 MB. GUI used memory: 50 MB. Current time: 3/6/21 5:45:07 AM PKT
+// HMemoryUtils.trashcanNow. Engine heap size: 734 MB. GUI used memory: 50 MB. Current time: 3/6/21 6:15:08 AM PKT
+// HMemoryUtils.trashcanNow. Engine heap size: 734 MB. GUI used memory: 50 MB. Current time: 3/6/21 6:45:10 AM PKT
+// HMemoryUtils.trashcanNow. Engine heap size: 734 MB. GUI used memory: 50 MB. Current time: 3/6/21 7:15:12 AM PKT
+// HMemoryUtils.trashcanNow. Engine heap size: 734 MB. GUI used memory: 50 MB. Current time: 3/6/21 7:45:14 AM PKT
+// HMemoryUtils.trashcanNow. Engine heap size: 734 MB. GUI used memory: 50 MB. Current time: 3/6/21 8:15:16 AM PKT
+// HMemoryUtils.trashcanNow. Engine heap size: 734 MB. GUI used memory: 51 MB. Current time: 3/6/21 8:45:18 AM PKT
+// HMemoryUtils.trashcanNow. Engine heap size: 734 MB. GUI used memory: 51 MB. Current time: 3/6/21 9:15:19 AM PKT
+// HMemoryUtils.trashcanNow. Engine heap size: 734 MB. GUI used memory: 50 MB. Current time: 3/6/21 9:45:21 AM PKT
+// HMemoryUtils.trashcanNow. Engine heap size: 734 MB. GUI used memory: 50 MB. Current time: 3/6/21 10:15:23 AM PKT
+// HMemoryUtils.trashcanNow. Engine heap size: 734 MB. GUI used memory: 52 MB. Current time: 3/6/21 10:45:25 AM PKT
