@@ -3,7 +3,7 @@
 <!--The data in this file is primarily intended for consumption by Xilinx tools.
 The structure and the elements are likely to change over the next few releases.
 This means code written to parse this file will need to be revisited each subsequent release.-->
-<application name="pa" timeStamp="Sat Mar 06 13:33:49 2021">
+<application name="pa" timeStamp="Sat Mar 06 15:53:50 2021">
 <section name="Project Information" visible="false">
 <property name="ProjectID" value="bbde5ee405d249d6be73cccb980967f2" type="ProjectID"/>
 <property name="ProjectIteration" value="1" type="ProjectIteration"/>
@@ -20,8 +20,24 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="AddSources" value="4" type="JavaHandler"/>
 <property name="EditDelete" value="1" type="JavaHandler"/>
 </item>
+<item name="Gui Resources Info">
+<property name="Multiplexer_8to1_conditional.v, 114, 547" value="1" type="GuiResourceData"/>
+<property name="Multiplexer_8to1_conditional.v, 123, 45" value="1" type="GuiResourceData"/>
+<property name="Multiplexer_8to1_conditional.v, 193, 341" value="1" type="GuiResourceData"/>
+<property name="Multiplexer_8to1_conditional.v, 269, 315" value="1" type="GuiResourceData"/>
+<property name="Multiplexer_8to1_conditional.v, 334, 363" value="1" type="GuiResourceData"/>
+<property name="Multiplexer_8to1_conditional.v, 397, 271" value="1" type="GuiResourceData"/>
+<property name="Multiplexer_8to1_conditional.v, 62, 300" value="1" type="GuiResourceData"/>
+<property name="Multiplexer_8to1_conditional.v, 75, 334" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Constraints], 4" value="3" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Data_Flow_Operators (Verilog_operators.v" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Design Sources, Multiplexer_8to1_conditional (Multiplexer_8to1_conditional.v" value="2" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1, Multiplexer_8to1_conditional_TB (Multiplexer_8to1_conditional_TB.v" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources, sim_1], 8" value="1" type="GuiResourceData"/>
+<property name="PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, [root, Simulation Sources], 7" value="1" type="GuiResourceData"/>
+</item>
 <item name="Other">
-<property name="GuiMode" value="5" type="GuiMode"/>
+<property name="GuiMode" value="6" type="GuiMode"/>
 <property name="BatchMode" value="0" type="BatchMode"/>
 <property name="TclMode" value="3" type="TclMode"/>
 </item>
