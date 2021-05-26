@@ -3,7 +3,7 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date: 11/23/2020 01:20:00 PM
+// Create Date: 05/26/2021 02:24:17 PM
 // Design Name: 
 // Module Name: FIR_Filter
 // Project Name: 
@@ -20,74 +20,61 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module FIR_Filter(Clk, Xin,  Yout);
-parameter N = 16; // coeffient wordlength
+module FIR_Filter(clk, reset, data_in, data_out);
 
-input Clk; // clock
-input [N-1:0] Xin; // Input data
-output reg [N-1:0] Yout; // Output data
+parameter N = 16;
 
-// reset signal
-reg reset;
+input clk, reset;
+input [N-1:0] data_in;
+output reg [N-1:0] data_out; 
 
-//Internal variables.
- wire [N-1:0] b0, b1, b2, b3, b4, b5, b6, b7;
- wire [N-1:0] MUL0, MUL1, MUL2, MUL3, MUL4, MUL5, MUL6, MUL7, Add_out;
- wire [N-1:0] Q1,Q2,Q3, Q4, Q5, Q6, Q7;
+// coefficients defination
+// Moving Average Filter, 3rd order
+// four coefficients; 1/(order+1) = 1/4 = 0.25 
+// 0.25 x 128(scaling factor) = 32 = 6'b100000
+wire [5:0] b0 =  6'b100000; 
+wire [5:0] b1 =  6'b100000; 
+wire [5:0] b2 =  6'b100000; 
+wire [5:0] b3 =  6'b100000;
+wire [N-1:0] x1, x2, x3; 
+
+// Create delays i.e x[n-1], x[n-2], .. x[n-N]
+// Instantiate D Flip Flops
+DFF DFF0(clk, 0, data_in, x1); // x[n-1]
+DFF DFF1(clk, 0, x1, x2);      // x[x[n-2]]
+DFF DFF2(clk, 0, x2, x3);      // x[n-3] 
+
+//  Multiplication
+wire [N-1:0] Mul0, Mul1, Mul2, Mul3;  
+assign Mul0 = data_in * b0; 
+assign Mul1 = x1 * b1;  
+assign Mul2 = x2 * b2;  
+assign Mul3 = x3 * b3;  
  
+// Addition operation
+wire [N-1:0] Add_final; 
+assign Add_final = Mul0 + Mul1 + Mul2 + Mul3; 
 
-//filter coefficient for moving average filter
- assign b0 = 16; 
- assign b1 = 17;
- assign b2 = 18;
- assign b3 = 19;
- assign b4 = 19; 
- assign b5 = 18;
- assign b6 = 17;
- assign b7 = 16;
+// Final calculation to output 
+always@(posedge clk)
+data_out <= Add_final; 
 
-////flip flop instantiations (for introducing a delay).
- DFF dff1 (.clk(Clk), .reset(1'b0), .D(Xin),.Q(Q1));
- DFF dff2 (.clk(Clk), .reset(1'b0), .D(Q1),.Q(Q2));
- DFF dff3 (.clk(Clk), .reset(1'b0), .D(Q2),.Q(Q3));
- DFF dff4 (.clk(Clk), .reset(1'b0), .D(Q3),.Q(Q4));
- DFF dff5 (.clk(Clk), .reset(1'b0), .D(Q4),.Q(Q5));
- DFF dff6 (.clk(Clk), .reset(1'b0), .D(Q5),.Q(Q6));
- DFF dff7 (.clk(Clk), .reset(1'b0), .D(Q6),.Q(Q7));
-
- 
-//Multiplications.
- assign MUL0 = b0*Xin;
- assign MUL1 = b1*Q1;
- assign MUL2 = b2*Q2;
- assign MUL3 = b3*Q3;
- assign MUL4 = b4*Q4;
- assign MUL5 = b5*Q5;
- assign MUL6 = b6*Q6;
- assign MUL7 = b7*Q7;
-
- 
-//Adders
- assign Add_out = MUL0 + MUL1 + MUL2 + MUL3 + MUL4 + MUL5 + MUL6 + MUL7;
-
-//Assign the adder output to final output.
- always@ (posedge Clk)
- Yout <= Add_out;
 endmodule
 
 
-module DFF(clk, reset, D, Q);
-
-parameter N = 16; // coeffient wordlength
+module DFF(clk, reset, data_in, data_delayed);
+parameter N = 16;
 input clk, reset;
-input [N-1:0] D;
-output reg [N-1:0] Q;
+input [N-1:0] data_in;
+output reg [N-1:0] data_delayed; 
 
 always@(posedge clk, posedge reset)
- if (reset)
-    Q <= 0;
- else
-    Q <= D;
+begin
+    if (reset)
+    data_delayed <= 0;
+    else
+    data_delayed <= data_in; 
+    
+end
 
 endmodule
-

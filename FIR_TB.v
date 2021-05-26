@@ -3,7 +3,7 @@
 // Company: 
 // Engineer: 
 // 
-// Create Date: 11/23/2020 01:23:14 PM
+// Create Date: 05/26/2021 02:50:34 PM
 // Design Name: 
 // Module Name: FIR_TB
 // Project Name: 
@@ -20,46 +20,43 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module FIR_Filter_TestBench;
+module FIR_TB; 
+
 parameter N = 16;
-parameter address = 5;
 
- // Inputs
- reg Clk;
- reg [address-1:0] addr;
- reg [N-1:0] Xin;
- reg [N-1:0] ram [0:31];
+reg clk, reset;
+reg [N-1:0] data_in;
+wire [N-1:0] data_out; 
 
- // Outputs
- wire [N-1:0] Yout;
+FIR_Filter inst0(clk, reset, data_in, data_out);
 
- //Generate a clock with 10 ns clock period.
+// input sine wave data
 initial
-Clk = 0;
-always
-#5 Clk =~Clk;
+$readmemb("signal.data", RAMM);
 
- // Generate RAM Addresses
- initial
-addr=0;
- always
- #10 addr = addr+1;
+// Create the RAM
+reg [N-1:0] RAMM [31:0]; 
 
- // Read data file and assign data to memory
- initial begin
-// $readmemb("signal.data",ram);
-$readmemb("D:/DSDLabs/Lab07/LAb8/impulse.data",ram);
+// create a clock
+initial 
+clk = 0;
+always 
+#10 clk = ~ clk;  
 
- end
-
- // Assign memory data to the Input of the filter
- always @(posedge Clk)
- begin
- Xin <= ram[addr];
- end
- 
-// Instantiate the DUT
-FIR_Filter inst0(Clk, Xin, Yout);
-
+// Read RAMM data and give to design
+always@(posedge clk)
+    data_in <= RAMM[Address]; 
+    
+// Address counter
+reg [4:0] Address; 
+initial
+Address = 1; 
+always@(posedge clk)
+begin
+    if (Address == 31)
+        Address = 0; 
+    else
+        Address = Address + 1; 
+end     
 
 endmodule
